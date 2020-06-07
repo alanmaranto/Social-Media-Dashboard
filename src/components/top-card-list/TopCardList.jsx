@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 
 const TopCardList = () => {
   return (
@@ -19,7 +20,7 @@ const TopCardList = () => {
               12 Today
             </p>
           </article>
-          
+
           <article className="card twitter">
             <p className="card-title">
               <img src="images/icon-twitter.svg" alt="" />
@@ -49,7 +50,7 @@ const TopCardList = () => {
               12 today
             </p>
           </article>
-          
+
           <article className="card youtube">
             <p className="card-title">
               <img src="images/icon-youtube.svg" alt="" />

@@ -2,9 +2,12 @@
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
+  /* border: 1px solid red; */
+}
+
+main {
   color: var(--baseColor);
   background: var(--baseBackground);
-  /* border: 1px solid red; */
 }
 
 :root {

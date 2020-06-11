@@ -1,8 +1,7 @@
 import React from "react";
-import Switch from "../switch/Switch";
 import "./style.css";
 
-const Header = () => {
+const Header = ({ children }) => {
   return (
     <div className="App">
       <header className="header">
@@ -12,7 +11,7 @@ const Header = () => {
               <h1>Social Media Dashboard</h1>
               <p className="header-total">Total Followers 23, 005</p>
             </div>
-            <Switch />
+            {children}
           </div>
         </div>
       </header>

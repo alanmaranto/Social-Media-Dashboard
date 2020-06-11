@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-const CardSmall = ({ icon, pageViews, growth, key }) => {
+const CardSmall = ({ icon, pageViews, growth }) => {
   return (
     <div className="card-small">
       <p className="card-small-views">Page Views</p>
